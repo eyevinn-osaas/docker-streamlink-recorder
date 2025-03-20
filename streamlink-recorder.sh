@@ -2,10 +2,11 @@
 
 # For more information visit: https://github.com/downthecrop/TwitchVOD
 
-#echo "Argument 1: $streamOptions"
-#echo "Argument 2: $streamLink"
-#echo "Argument 3: $streamQuality"
-#echo "Argument 4: $streamName"
+echo "Starting Streamlink Recorder with:"
+echo "Stream options: $streamOptions"
+echo "Stream link: $streamLink"
+echo "Stream quality: $streamQuality"
+echo "Stream name: $streamName"
 
 IFS=';' read -r -a args <<< "$streamOptions"
 
